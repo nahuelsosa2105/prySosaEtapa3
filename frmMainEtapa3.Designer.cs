@@ -47,6 +47,7 @@
             this.btnAuto.TabIndex = 0;
             this.btnAuto.Text = "AUTO";
             this.btnAuto.UseVisualStyleBackColor = false;
+            this.btnAuto.Click += new System.EventHandler(this.btnAuto_Click);
             // 
             // btnAvion
             // 
@@ -59,6 +60,7 @@
             this.btnAvion.TabIndex = 1;
             this.btnAvion.Text = "AVIÓN";
             this.btnAvion.UseVisualStyleBackColor = false;
+            this.btnAvion.Click += new System.EventHandler(this.btnAvion_Click);
             // 
             // btnBarco
             // 
@@ -71,6 +73,7 @@
             this.btnBarco.TabIndex = 2;
             this.btnBarco.Text = "BARCO";
             this.btnBarco.UseVisualStyleBackColor = false;
+            this.btnBarco.Click += new System.EventHandler(this.btnBarco_Click);
             // 
             // lblAuto
             // 
