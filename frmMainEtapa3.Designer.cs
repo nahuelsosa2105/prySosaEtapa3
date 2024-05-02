@@ -79,7 +79,7 @@
             // 
             this.lblAuto.AutoSize = true;
             this.lblAuto.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAuto.Location = new System.Drawing.Point(93, 22);
+            this.lblAuto.Location = new System.Drawing.Point(73, 22);
             this.lblAuto.Name = "lblAuto";
             this.lblAuto.Size = new System.Drawing.Size(0, 31);
             this.lblAuto.TabIndex = 3;
@@ -97,7 +97,7 @@
             // 
             this.lblBarco.AutoSize = true;
             this.lblBarco.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblBarco.Location = new System.Drawing.Point(662, 22);
+            this.lblBarco.Location = new System.Drawing.Point(555, 22);
             this.lblBarco.Name = "lblBarco";
             this.lblBarco.Size = new System.Drawing.Size(0, 31);
             this.lblBarco.TabIndex = 5;

@@ -20,11 +20,12 @@ namespace prySosaEtapa3
         {
             pctAuto = new PictureBox();
             pctAuto.SizeMode = PictureBoxSizeMode.StretchImage;
-            pctAuto.Width = 200;
-            pctAuto.Height = 200;
+            pctAuto.Width = 350;
+            pctAuto.Height = 350;
             pctAuto.BackColor = Color.Transparent;
             string rutaImagen = Path.Combine(Application.StartupPath, "..", "..", "Resources", "F1RedBullAnimado.png");
             pctAuto.ImageLocation = rutaImagen;
+            tipoVehiculo = "Formula 1";
         }
 
         public void CrearAvion()
@@ -36,6 +37,7 @@ namespace prySosaEtapa3
             pctAvion.BackColor = Color.Transparent;
             string rutaImagen = Path.Combine(Application.StartupPath, "..", "..", "Resources", "Avion2daGuerra.png");
             pctAvion.ImageLocation = rutaImagen;
+            tipoVehiculo = "Avión";
         }
 
         public void CrearBarco()
@@ -47,6 +49,7 @@ namespace prySosaEtapa3
             pctBarco.BackColor = Color.Transparent;
             string rutaImagen = Path.Combine(Application.StartupPath, "..", "..", "Resources", "Holandes errante barco.png");
             pctBarco.ImageLocation = rutaImagen;
+            tipoVehiculo = "Holandes Errante";
         }
 
 
